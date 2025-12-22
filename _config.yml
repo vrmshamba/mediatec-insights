@@ -1,19 +1,17 @@
 # Site Settings
 title: Mediatec Insights
 description: Bold marketing insights for African brands. Strategy that works in African markets.
-baseurl: "" 
+baseurl: ""
 url: "https://insights.mediatec.africa"
 
 # Author Settings
 author:
   name: Mediatec
-  bio: Writes about <strong>marketing strategy</strong>, <strong>brand positioning</strong>, and <strong>execution</strong> for African markets. I share insights, case studies, and data-driven approaches. Based in <a href="https://mediatec.africa">Nairobi</a> working with bold brands.
-  avatar: /assets/images/author.jpg 
+  bio: Writes about <strong>marketing strategy</strong>, <strong>brand positioning</strong>, and <strong>execution</strong>.
+  avatar: /assets/images/author.jpg
 
 # Contact & Social
 email: info@mediatec.africa
-twitter_username: 
-linkedin_username: 
 website: https://mediatec.africa
 
 # Build Settings
@@ -22,14 +20,13 @@ permalink: /:year/:month/:day/:title/
 paginate: 6
 paginate_path: "/page/:num"
 
-# Plugins (Commented out to stop the crash)
-# If you want these later, we must add them to Gemfile first.
-
+# Plugins
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  
+
 # Exclude files
 exclude:
   - README.md
@@ -38,5 +35,7 @@ exclude:
   - Gemfile.lock
 
 # SEO
+lang: en
+timezone: Africa/Nairobi
 lang: en
 timezone: Africa/Nairobi
