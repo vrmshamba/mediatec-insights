@@ -1,6 +1,7 @@
 # Mediatec Insights
 
 Bold marketing insights for African brands.
+Flavour and Colour that moves success
 
 ## About
 
