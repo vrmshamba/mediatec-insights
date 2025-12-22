@@ -1,35 +1,41 @@
-baseurl: "/zolan" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Site Settings
+title: Mediatec Insights
+description: Bold marketing insights for African brands. Strategy that works in African markets.
+baseurl: "" # Leave empty for custom domain
+url: "https://insights.mediatec.africa"
 
+# Author Settings
+author:
+  name: Mediatec
+  bio: Writes about <strong>marketing strategy</strong>, <strong>brand positioning</strong>, and <strong>execution</strong> for African markets. I share insights, case studies, and data-driven approaches. Based in <a href="https://mediatec.africa">Nairobi</a> working with bold brands.
+  avatar: /assets/images/author.jpg # Add your photo here
 
-# Build settings
+# Contact & Social
+email: info@mediatec.africa
+twitter_username: # Add if you have
+linkedin_username: # Add if you have
+website: https://mediatec.africa
+
+# Build Settings
 markdown: kramdown
-permalink: pretty
+permalink: /:year/:month/:day/:title/
+paginate: 6
+paginate_path: "/page/:num"
+
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll/tagging
+  - jekyll-feed
+  - jekyll-seo-tag
 
-paginate: 5
-paginate_path: "/page/:num"
+# Exclude files
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
 
-
-# Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-
-include:
-  - _pages
-
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
-
-sass:
-  sass_dir: _sass
-  style: compressed
+# SEO
+lang: en
+timezone: Africa/Nairobi
