@@ -24,12 +24,12 @@ paginate_path: "/page/:num"
 
 # Plugins (Commented out to stop the crash)
 # If you want these later, we must add them to Gemfile first.
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jekyll-sitemap
-  # - jekyll-feed
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
 # Exclude files
 exclude:
   - README.md
