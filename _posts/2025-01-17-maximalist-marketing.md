@@ -36,9 +36,9 @@ Every touchpoint registers fast. Every interaction sticks. Recognition grows thr
 
 Three core principles drive this approach:
 
-1.  **Visual dominance:** Bold colors. High contrast. Instant recognition within seconds.
-2.  **Repetition:** Same message. Many channels. Frequency builds memory.
-3.  **Cultural embedding:** Local references. Local humor. Community language.
+1. **Visual dominance:** Bold colors. High contrast. Instant recognition within seconds.
+2. **Repetition:** Same message. Many channels. Frequency builds memory.
+3. **Cultural embedding:** Local references. Local humor. Community language.
 
 This wastes nothing. Every action compounds.
 
