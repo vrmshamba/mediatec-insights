@@ -1,15 +1,11 @@
 ---
 layout: post
 title: "Why African Brands Win With Maximum Impact: The Case for Maximalist Marketing"
-excerpt: "African brands face unique challenges. Limited budgets. Fragmented markets. Low brand awareness. Maximalist marketing delivers the bold, memorable presence needed to break through."
-tags: [african-marketing, brand-strategy, maximalist-marketing]
-author: Mediatec Team
 date: 2025-01-17
-image: https://github.com/user-attachments/assets/1170adfd-5860-4e60-95ba-1800031d0637
-keywords: "african marketing, brand strategy, maximalist marketing, marketing roi africa"
+image: /assets/images/01.jpg
+tags: [african-marketing, brand-strategy, maximalist-marketing]
+description: "African brands face unique challenges. Limited budgets. Fragmented markets. Low brand awareness. Maximalist marketing delivers the bold, memorable presence needed to break through."
 ---
-
-![Maximalist marketing approach](https://github.com/user-attachments/assets/1170adfd-5860-4e60-95ba-1800031d0637)
 
 African brands operate in a different reality.
 
@@ -38,6 +34,8 @@ Traditional marketing wisdom breaks in this context.
 Maximalist marketing concentrates impact.
 
 You amplify every touchpoint. You make every interaction memorable. You build recognition through repetition and boldness, not subtlety.
+
+![Maximalist brand presence](/assets/images/08.jpg)
 
 **Three core principles:**
 
@@ -148,7 +146,7 @@ Start with audit.
 - Monitor sales lift in target areas
 - Adjust based on response
 
-![Implementation framework](https://github.com/user-attachments/assets/1170adfd-5860-4e60-95ba-1800031d0637)
+![Implementation framework](/assets/images/01.jpg)
 
 ## Common Implementation Mistakes
 
@@ -200,15 +198,3 @@ Apply one maximalist principle this month.
 Choose your boldest color. Place your largest logo. Book your most repeated radio spot. Measure the response.
 
 Build from there.
-
----
-
-### Related Reading
-
-- [How African Brands Build Trust in Fragmented Markets](link)
-- [The ROI of Physical Brand Presence in Africa](link)
-- [Why Your Marketing Budget Needs Concentration, Not Diversification](link)
-
----
-
-**About Mediatec:** We help African brands build market dominance through strategic marketing that works in African conditions. Connect with us at mediatec.africa
