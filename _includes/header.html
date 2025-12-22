@@ -1,7 +1,6 @@
 <div class="container">
   <div class="row">
     <div class="col col-12">
-      <!-- begin header -->
       <header class="header">
 
         <div class="logo">
@@ -27,15 +26,14 @@
               <li class="nav__item">
                 <a href="{{site.baseurl}}/" class="nav__link">Home</a>
               </li>
-              {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
-              {% if page.title %}
+              
               <li class="nav__item">
-                <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+                <a href="{{site.baseurl}}/insights/" class="nav__link">Insights</a>
               </li>
-              {% endif %}
-                {% endunless %}
-              {% endfor %}
+
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/reports/" class="nav__link">Reports</a>
+              </li>
             </ul>
 
           </div>
@@ -48,7 +46,6 @@
 
         <div class="header__overlay"></div>
       </header>
-      <!-- end header -->
-    </div>
+      </div>
   </div>
 </div>
