@@ -4,23 +4,69 @@ title: About
 permalink: /about/
 image: 01.jpg
 ---
+Mediatec Insights exists for people who think before they publish.
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+You work with ideas. You connect signals. You notice patterns across media, technology, culture, and markets. Yet turning those thoughts into clear writing often stalls. Notes scatter. Drafts linger. Momentum fades.
 
-***
+This space brings order.
 
-#### Austin scenester...
-<small>2008 - 2018</small>
+Mediatec Insights focuses on communication as a discipline. Writing as a system. Ideas as assets that grow when structured, repeated, and shared with purpose.
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+The goal stays simple.
+Help you move from thought to published clarity.
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+What you will find here
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+<small>Current focus</small>
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+Clear essays on media, branding, AI, and communication strategy.
+Practical frameworks you apply immediately.
+Examples drawn from African markets and global systems.
+Language built for understanding, not decoration.
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+Every post follows one rule.
+If it does not sharpen thinking or action, it does not belong.
+
+How this work developed
+
+<small>Background</small>
+
+Years spent observing how ideas move.
+Across newsrooms. Startups. Creative teams. Technical builders.
+
+The same pattern appears every time.
+People with strong insight struggle to package it.
+People with weak insight package loudly.
+
+This imbalance creates noise.
+
+The work here responds to that gap.
+Slow thinking. Structured output. Repeatable publishing.
+
+Who this is for
+
+<small>Audience</small>
+
+Writers building consistency.
+Founders shaping narratives.
+Marketers tired of shallow trends.
+Thinkers who value signal over volume.
+
+If you care about meaning, structure, and long-term impact, you are in the right place.
+
+How to use Mediatec Insights
+
+<small>Best approach</small>
+
+Read slowly.
+Apply selectively.
+Publish deliberately.
+
+This is not a feed to scroll.
+It is a reference you return to.
+
+Communication shapes markets.
+Clarity builds trust.
+Structure scales ideas.
+
+That is the work done here.
