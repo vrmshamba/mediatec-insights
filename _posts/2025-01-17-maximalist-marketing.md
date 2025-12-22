@@ -195,6 +195,6 @@ The next decade belongs to brands brave enough to dominate their space. Not thro
 
 Apply one maximalist principle this month.
 
-Choose your boldest color. Place your largest logo. Book your most repeated radio spot. Measure the response.
+ Choose your boldest color. Place your largest logo. Book your most repeated radio spot. Measure the response.
 
 Build from there.
