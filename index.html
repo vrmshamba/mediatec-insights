@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 <div class="hero" style="position: relative; color: white; text-align: center; background: #111; overflow: hidden; min-height: 500px;">
-  
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.4;">
     <img src="{{ site.baseurl }}/images/01.jpg" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
@@ -19,7 +18,7 @@ title: Home
       <a href="#insights" style="background: #d15d2a; color: white; padding: 15px 35px; text-decoration: none; font-weight: bold; border-radius: 4px; font-size: 1.1em;">
         Read Insights
       </a>
-      <a href="/reports/" style="background: transparent; border: 2px solid white; color: white; padding: 15px 35px; text-decoration: none; font-weight: bold; border-radius: 4px; font-size: 1.1em;">
+      <a href="{{ site.baseurl }}/reports/" style="background: transparent; border: 2px solid white; color: white; padding: 15px 35px; text-decoration: none; font-weight: bold; border-radius: 4px; font-size: 1.1em;">
         Download Reports
       </a>
     </div>
@@ -52,12 +51,19 @@ title: Home
 <div id="insights" class="container" style="padding: 40px 15px 80px; max-width: 1000px;">
   <h2 style="margin-bottom: 40px; text-align: center; font-size: 2rem;">Latest Insights</h2>
   
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 3 %}
   <div class="post-item" style="display: flex; gap: 30px; margin-bottom: 40px; background: white; border: 1px solid #E8E9EB; border-radius: 8px; overflow: hidden; flex-wrap: wrap;">
+    
     {% if post.image %}
     <div style="flex: 0 0 300px; min-width: 280px;">
-      <a href="{{ post.url }}">
-        <img src="{{ post.image }}" alt="{{ post.title }}" style="width: 100%; height: 250px; object-fit: cover; display: block;">
+      <a href="{{ post.url | relative_url }}">
+        {% comment %} Path Guard for GitHub folder structure {% endcomment %}
+        {% if post.image contains '/images/' %}
+          {% assign image_path = post.image %}
+        {% else %}
+          {% assign image_path = '/images/' | append: post.image %}
+        {% endif %}
+        <img src="{{ site.baseurl }}{{ image_path }}" alt="{{ post.title }}" style="width: 100%; height: 225px; object-fit: cover; display: block; background: #f0f0f0;">
       </a>
     </div>
     {% endif %}
@@ -65,11 +71,17 @@ title: Home
     <div style="flex: 1; padding: 30px; min-width: 280px;">
       <span style="color: #8D99AE; font-size: 0.9rem; display: block; margin-bottom: 10px;">{{ post.date | date: "%B %-d, %Y" }}</span>
       <h2 style="margin: 0 0 15px 0; font-size: 1.5rem;">
-        <a href="{{ post.url }}" style="color: #1D3557; text-decoration: none;">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}" style="color: #1D3557; text-decoration: none;">{{ post.title }}</a>
       </h2>
-      <p style="color: #2B2D42; margin-bottom: 20px; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      <a href="{{ post.url }}" style="color: #E63946; font-weight: 600; text-decoration: none;">Read Article →</a>
+      <p style="color: #2B2D42; margin-bottom: 20px; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      <a href="{{ post.url | relative_url }}" style="color: #d15d2a; font-weight: 600; text-decoration: none;">Read Article →</a>
     </div>
   </div>
   {% endfor %}
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="{{ site.baseurl }}/insights/" style="display: inline-block; padding: 15px 40px; background: #111; color: white; text-decoration: none; font-weight: bold; border-radius: 4px; transition: 0.3s;">
+      View All Insights
+    </a>
+  </div>
 </div>
