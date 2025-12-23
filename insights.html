@@ -1,29 +1,63 @@
-<div class="post-list-container">
-  {% for post in site.posts %}
-    <div class="post-item" style="display: flex; gap: 30px; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 30px; align-items: start;">
+---
+layout: default
+title: Insights
+permalink: /insights
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
       
-      <div class="post-image" style="flex: 0 0 250px;">
-        <a href="{{ post.url | relative_url }}">
-          {% comment %} Forces the path to /images/ regardless of how it was written in the post {% endcomment %}
-          {% assign img_name = post.image | split: '/' | last %}
-          <img src="{{ site.baseurl }}/images/{{ img_name }}" 
-               alt="{{ post.title }}" 
-               onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/logo.svg';"
-               style="width: 250px; height: 187px; border-radius: 4px; object-fit: cover; display: block; background: #f0f0f0;">
-        </a>
-      </div>
+      <h4 style="margin-top: 40px; margin-bottom: 30px; border-bottom: 2px solid #333; padding-bottom: 10px;">Latest Insights</h4>
 
-      <div class="post-content" style="flex: 1;">
-        <div class="post-meta" style="color: #888; font-size: 0.85em; margin-bottom: 5px;">
-          {{ post.date | date: "%B %-d, %Y" }}
-        </div>
-        <h2 class="post-title" style="margin-top: 0; margin-bottom: 10px; font-size: 1.5em;">
-          <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #111;">{{ post.title }}</a>
-        </h2>
-        <p style="color: #555; line-height: 1.6; margin-bottom: 15px;">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-        <a href="{{ post.url | relative_url }}" style="color: #d15d2a; font-weight: bold; text-decoration: none;">Read Article &rarr;</a>
-      </div>
+      <div class="post-list-container">
+        {% for post in site.posts %}
+          <div class="post-item" style="display: flex; gap: 30px; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 30px; align-items: start; flex-wrap: wrap;">
+            
+            {% if post.image %}
+            <div class="post-image" style="flex: 0 0 250px; min-width: 250px;">
+              <a href="{{ post.url | relative_url }}">
+                {% comment %} 
+                   Standardizes path to /images/ folder and strips any extra slashes 
+                {% endcomment %}
+                {% assign img_filename = post.image | split: '/' | last %}
 
+                <img src="{{ site.baseurl }}/images/{{ img_filename }}" 
+                     alt="{{ post.title }}" 
+                     onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/logo.svg';"
+                     style="width: 250px; height: 187px; border-radius: 4px; object-fit: cover; display: block; background: #f0f0f0;">
+              </a>
+            </div>
+            {% endif %}
+
+            <div class="post-content" style="flex: 1; min-width: 280px;">
+              <div class="post-meta" style="color: #888; font-size: 0.85em; margin-bottom: 5px;">
+                {{ post.date | date: "%B %-d, %Y" }}
+              </div>
+
+              <h2 class="post-title" style="margin-top: 0; margin-bottom: 10px; font-size: 1.5em;">
+                <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #111;">
+                  {{ post.title }}
+                </a>
+              </h2>
+
+              <div class="post-excerpt" style="color: #555; line-height: 1.6; margin-bottom: 15px;">
+                {% if post.description %}
+                  {{ post.description }}
+                {% else %}
+                  {{ post.excerpt | strip_html | truncatewords: 30 }}
+                {% endif %}
+              </div>
+
+              <a href="{{ post.url | relative_url }}" style="color: #d15d2a; font-weight: bold; text-decoration: none;">
+                Read Article &rarr;
+              </a>
+            </div>
+
+          </div>
+        {% endfor %}
+      </div>
+      
     </div>
-  {% endfor %}
+  </div>
 </div>
