@@ -3,7 +3,7 @@ layout: post
 title: "The Social Inversion: Why 2025 is the End of Minimalist Marketing"
 date: 2025-03-22
 author: "Insights by Mediatec"
-image: images/growing-pains-premium.jpg
+image: growing-pains-premium.jpg
 excerpt: "Minimalism is dead. Our latest 25-page intelligence report reveals why Gen Z is moving to Creative Maximalism and what it means for your brand strategy."
 ---
 
