@@ -17,7 +17,9 @@ permalink: /insights/
             {% if post.image %}
             <div class="post-image" style="flex: 0 0 250px;">
               <a href="{{ post.url | relative_url }}">
-                <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="{{ post.title }}" style="width: 100%; border-radius: 4px; object-fit: cover;">
+                <img src="{{ site.baseurl }}{{ post.image }}" 
+                     alt="{{ post.title }}" 
+                     style="width: 100%; height: 187px; border-radius: 4px; object-fit: cover; display: block; background: #f0f0f0;">
               </a>
             </div>
             {% endif %}
@@ -49,7 +51,6 @@ permalink: /insights/
           </div>
         {% endfor %}
       </div>
-
       
     </div>
   </div>
