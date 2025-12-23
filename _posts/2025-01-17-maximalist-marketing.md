@@ -28,7 +28,7 @@ Traditional advice breaks here.
 
 ## What Maximalist Marketing Means
 
-Maximalist marketing concentrates attention.
+Maximalist marketing concentrates attention. 
 
 Every touchpoint registers fast. Every interaction sticks. Recognition grows through repetition and strength.
 
