@@ -6,16 +6,22 @@
         {% if site.data.settings.logo %}
           <img src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="Logo" style="height: 40px;">
         {% else %}
-          <strong>{{ site.title }}</strong>
+          <strong style="font-size: 1.25rem; color: #111;">{{ site.title }}</strong>
         {% endif %}
       </a>
     </div>
 
     <nav class="main-nav">
-      <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
+      <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; align-items: center;">
         <li><a href="{{ site.baseurl }}/" style="text-decoration: none; color: #111; font-weight: bold;">Home</a></li>
         <li><a href="{{ site.baseurl }}/insights" style="text-decoration: none; color: #111; font-weight: bold;">Insights</a></li>
         <li><a href="{{ site.baseurl }}/reports" style="text-decoration: none; color: #111; font-weight: bold;">Reports</a></li>
+        <!-- Link to Main Site -->
+        <li>
+          <a href="https://mediatec.africa" target="_blank" style="background: #111; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 0.9em; transition: opacity 0.2s;">
+            mediatec.africa &rarr;
+          </a>
+        </li>
       </ul>
     </nav>
 
