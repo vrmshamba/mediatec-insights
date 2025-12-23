@@ -1,67 +1,50 @@
----
-layout: default
-title: Insights
-permalink: /insights/
----
-
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
+<div class="post-list-container">
+  {% for post in site.posts %}
+    <div class="post-item" style="display: flex; gap: 30px; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 30px; align-items: start;">
       
-      <h4 style="margin-top: 40px; margin-bottom: 30px; border-bottom: 2px solid #333; padding-bottom: 10px;">Latest Insights</h4>
+      {% if post.image %}
+      <div class="post-image" style="flex: 0 0 250px;">
+        <a href="{{ post.url | relative_url }}">
+          {% comment %} 
+             PATH GUARD: This checks if your YAML already has '/images/' 
+             to prevent double-pathing (e.g., /images//images/01.jpg).
+          {% endcomment %}
+          {% if post.image contains '/images/' %}
+            {% assign image_path = post.image %}
+          {% else %}
+            {% assign image_path = '/images/' | append: post.image %}
+          {% endif %}
 
-      <div class="post-list-container">
-        {% for post in site.posts %}
-          <div class="post-item" style="display: flex; gap: 30px; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 30px; align-items: start;">
-            
-            {% if post.image %}
-            <div class="post-image" style="flex: 0 0 250px;">
-              <a href="{{ post.url | relative_url }}">
-                {% comment %} 
-                   LOGIC GUARD: Checks if the image path already starts with /images/.
-                   If it doesn't, it adds it. This prevents the "missing image" error.
-                {% endcomment %}
-                {% if post.image contains '/images/' %}
-                  {% assign image_path = post.image %}
-                {% else %}
-                  {% assign image_path = '/images/' | append: post.image %}
-                {% endif %}
-
-                <img src="{{ site.baseurl }}{{ image_path }}" 
-                     alt="{{ post.title }}" 
-                     style="width: 250px; height: 187px; border-radius: 4px; object-fit: cover; display: block; background: #f0f0f0;">
-              </a>
-            </div>
-            {% endif %}
-
-            <div class="post-content" style="flex: 1;">
-              <div class="post-meta" style="color: #888; font-size: 0.85em; margin-bottom: 5px;">
-                {{ post.date | date: "%B %-d, %Y" }}
-              </div>
-
-              <h2 class="post-title" style="margin-top: 0; margin-bottom: 10px; font-size: 1.5em;">
-                <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #111;">
-                  {{ post.title }}
-                </a>
-              </h2>
-
-              <div class="post-excerpt" style="color: #555; line-height: 1.6; margin-bottom: 15px;">
-                {% if post.description %}
-                  {{ post.description }}
-                {% else %}
-                  {{ post.excerpt | strip_html | truncatewords: 30 }}
-                {% endif %}
-              </div>
-
-              <a href="{{ post.url | relative_url }}" style="color: #d15d2a; font-weight: bold; text-decoration: none;">
-                Read Article &rarr;
-              </a>
-            </div>
-
-          </div>
-        {% endfor %}
+          <img src="{{ site.baseurl }}{{ image_path }}" 
+               alt="{{ post.title }}" 
+               style="width: 250px; height: 187px; border-radius: 4px; object-fit: cover; display: block; background: #f0f0f0;">
+        </a>
       </div>
-      
+      {% endif %}
+
+      <div class="post-content" style="flex: 1;">
+        <div class="post-meta" style="color: #888; font-size: 0.85em; margin-bottom: 5px;">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </div>
+
+        <h2 class="post-title" style="margin-top: 0; margin-bottom: 10px; font-size: 1.5em;">
+          <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #111;">
+            {{ post.title }}
+          </a>
+        </h2>
+
+        <div class="post-excerpt" style="color: #555; line-height: 1.6; margin-bottom: 15px;">
+          {% if post.description %}
+            {{ post.description }}
+          {% else %}
+            {{ post.excerpt | strip_html | truncatewords: 30 }}
+          {% endif %}
+        </div>
+
+        <a href="{{ post.url | relative_url }}" style="color: #d15d2a; font-weight: bold; text-decoration: none;">
+          Read Article &rarr;
+        </a>
+      </div>
     </div>
-  </div>
+  {% endfor %}
 </div>
