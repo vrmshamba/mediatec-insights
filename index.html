@@ -2,16 +2,55 @@
 layout: default
 title: Home
 ---
-
-<div class="hero">
-  <div class="container">
-    <h1>Mediatec Insights</h1>
-    <p>Bold marketing insights for African brands. Strategy that works in African markets.</p>
+<div class="hero" style="position: relative; color: white; text-align: center; background: #111; overflow: hidden;">
+  
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.4;">
+    <img src="{{ site.baseurl }}/images/01.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+  </div>
+  <div class="container" style="position: relative; z-index: 2; padding: 100px 20px;">
+    <h1 style="font-size: 3.5em; font-weight: bold; margin-bottom: 20px; line-height: 1.1;">
+      Bold Strategy for<br>African Markets.
+    </h1>
+    <p style="font-size: 1.25em; max-width: 700px; margin: 0 auto 40px; color: #ddd;">
+      We help brands navigate fragmentation, build trust, and achieve maximum impact with data-driven strategy.
+    </p>
+    
+    <div style="display: flex; gap: 20px; justify-content: center;">
+      <a href="/insights/" style="background: #d15d2a; color: white; padding: 15px 35px; text-decoration: none; font-weight: bold; border-radius: 4px; font-size: 1.1em;">
+        Read Insights
+      </a>
+      <a href="/reports/" style="background: transparent; border: 2px solid white; color: white; padding: 15px 35px; text-decoration: none; font-weight: bold; border-radius: 4px; font-size: 1.1em;">
+        Download Reports
+      </a>
+    </div>
   </div>
 </div>
 
-<div class="container">
-  <h2 style="margin-top: 3rem; margin-bottom: 2rem;">Latest Posts</h2>
+<div class="container" style="padding: 80px 15px;">
+  <div class="row">
+    <div class="col col-12 text-center">
+      <h3 style="margin-bottom: 50px;">Why Mediatec?</h3>
+    </div>
+  </div>
+  
+  <div class="row" style="display: flex; flex-wrap: wrap; gap: 40px;">
+    <div class="col" style="flex: 1; min-width: 300px;">
+      <h4 style="color: #d15d2a;">Hyper-Local Context</h4>
+      <p>We don't copy Western playbooks. We build strategies rooted in local realities and cultural nuances.</p>
+    </div>
+    <div class="col" style="flex: 1; min-width: 300px;">
+      <h4 style="color: #d15d2a;">Maximalist Impact</h4>
+      <p>In fragmented markets, quiet brands die. We help you create bold visibility that breaks through the noise.</p>
+    </div>
+    <div class="col" style="flex: 1; min-width: 300px;">
+      <h4 style="color: #d15d2a;">Data-First</h4>
+      <p>Every decision is backed by real market data, consumer behavior analysis, and performance metrics.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding: 40px 15px 80px;">
+  <h2 style="margin-bottom: 40px; text-align: center;">Latest Insights</h2>
   
   {% for post in site.posts %}
   <div class="post-item">
