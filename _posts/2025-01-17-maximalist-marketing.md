@@ -2,7 +2,7 @@
 layout: post
 title: "Why African Brands Win With Maximum Impact: The Case for Maximalist Marketing"
 date: 2025-01-17 09:00:00 +0300
-image: 01.jpg
+image: ![Maximalist marketing approach]({{ site.baseurl }}/images/01.jpg)
 tags: [african-marketing, brand-strategy, maximalist-marketing]
 description: "African brands face unique challenges. Limited budgets. Fragmented markets. Low brand awareness. Maximalist marketing delivers the bold presence needed to break through."
 ---
