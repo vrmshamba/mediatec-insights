@@ -22,15 +22,11 @@ Your challenges stack differently.
 * **Budget pressure hits harder.** Marketing budgets across African markets sit far below global averages. Less money must work harder.
 * **Market fragmentation multiplies effort.** messages cross borders others never face.
 
-![Growing Pains Premium Report]({{ site.baseurl }}/images/growing-pains-premium.jpg)
-
 ## What Maximalist Marketing Means
 
 Maximalist marketing concentrates attention. 
 
 Every touchpoint registers fast. Every interaction sticks. Recognition grows through repetition and strength.
-
-![Visual Strategy]({{ site.baseurl }}/images/07.jpg)
 
 Three core principles drive this approach:
 
