@@ -1,52 +1,23 @@
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <header class="header">
-
-        <div class="logo">
-          <a class="logo__link" href="{{ site.baseurl }}/">
-          {% if site.data.settings.logo %}
-            {% comment %} Standardized to /images/ folder as agreed {% endcomment %}
-            <img class="logo__image" src="{{ site.baseurl }/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
-          {% else %}
-            {{ site.data.settings.title }}
-          {% endif %}
-          </a>
-        </div>
-
-        <nav class="main-nav">
-          <div class="main-nav__box">
-            <div class="nav-icon__close">
-              <i class="ion ion-ios-close-circle-outline"></i>
-            </div>
-
-            <div class="nav__title">Menu</div>
-
-            <ul class="nav__list list-reset">
-              <li class="nav__item">
-                <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
-              </li>
-              
-              <li class="nav__item">
-                {% comment %} Removed trailing slash to prevent 404 errors on some GitHub environments {% endcomment %}
-                <a href="{{ site.baseurl }}/insights" class="nav__link">Insights</a>
-              </li>
-
-              <li class="nav__item">
-                <a href="{{ site.baseurl }}/reports" class="nav__link">Reports</a>
-              </li>
-            </ul>
-
-          </div>
-        </nav>
-
-        <div class="nav-buttons">
-          <i class="nav__icon nav__icon-menu ion ion-md-menu" aria-label="Menu Icon"></i>
-          <i class="nav__icon nav__icon-search ion ion-md-search" aria-label="Search Icon"></i>
-        </div>
-
-        <div class="header__overlay"></div>
-      </header>
+<header class="header" style="padding: 20px 0; border-bottom: 1px solid #eee;">
+  <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+    
+    <div class="logo">
+      <a href="{{ site.baseurl }}/">
+        {% if site.data.settings.logo %}
+          <img src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="Logo" style="height: 40px;">
+        {% else %}
+          <strong>{{ site.title }}</strong>
+        {% endif %}
+      </a>
     </div>
+
+    <nav class="main-nav">
+      <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
+        <li><a href="{{ site.baseurl }}/" style="text-decoration: none; color: #111; font-weight: bold;">Home</a></li>
+        <li><a href="{{ site.baseurl }}/insights" style="text-decoration: none; color: #111; font-weight: bold;">Insights</a></li>
+        <li><a href="{{ site.baseurl }}/reports" style="text-decoration: none; color: #111; font-weight: bold;">Reports</a></li>
+      </ul>
+    </nav>
+
   </div>
-</div>
+</header>
