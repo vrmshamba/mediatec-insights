@@ -17,9 +17,19 @@ permalink: /insights/
             {% if post.image %}
             <div class="post-image" style="flex: 0 0 250px;">
               <a href="{{ post.url | relative_url }}">
-                <img src="{{ site.baseurl }}{{ post.image }}" 
+                {% comment %} 
+                   LOGIC GUARD: Checks if the image path already starts with /images/.
+                   If it doesn't, it adds it. This prevents the "missing image" error.
+                {% endcomment %}
+                {% if post.image contains '/images/' %}
+                  {% assign image_path = post.image %}
+                {% else %}
+                  {% assign image_path = '/images/' | append: post.image %}
+                {% endif %}
+
+                <img src="{{ site.baseurl }}{{ image_path }}" 
                      alt="{{ post.title }}" 
-                     style="width: 100%; height: 187px; border-radius: 4px; object-fit: cover; display: block; background: #f0f0f0;">
+                     style="width: 250px; height: 187px; border-radius: 4px; object-fit: cover; display: block; background: #f0f0f0;">
               </a>
             </div>
             {% endif %}
