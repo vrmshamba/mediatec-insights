@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: greeting
 title: "Season’s Greetings from Mediatec Africa"
 date: 2025-12-23 09:00:00 +0300
 categories: updates
