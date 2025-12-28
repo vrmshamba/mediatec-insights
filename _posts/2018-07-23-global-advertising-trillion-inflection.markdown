@@ -29,7 +29,3 @@ Artificial intelligence has moved into the core of marketing infrastructure. **7
 1. WARC Global Ad Spend Outlook 2024/25.
 2. PwC Global Entertainment & Media Outlook 2024–2028.
 3. Zenith Media Advertising Expenditure Forecasts 2025.
-
-You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There's a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!
-
-Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." That's the ONLY thing about being a slave.
