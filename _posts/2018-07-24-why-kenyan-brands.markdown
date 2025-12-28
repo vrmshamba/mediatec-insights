@@ -114,3 +114,4 @@ Brands that wait for full connectivity lose today’s customers. Those that bala
 Kenya’s media reality rewards flexibility. The most successful brands understand the country as it is, not as it will be. They meet consumers where they are and grow with them.
 
 That is how lasting market leadership is built.
+
