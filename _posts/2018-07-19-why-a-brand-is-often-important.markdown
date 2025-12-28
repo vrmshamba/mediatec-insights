@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Find a Connection with the Reader: The New Rules of Authenticity
+title:  "Find a Connection with the Reader: The New Rules of Authenticity"
 date:   2018-07-19 15:01:35 +0300
 image:  03.jpg
 tags:   Strategy
