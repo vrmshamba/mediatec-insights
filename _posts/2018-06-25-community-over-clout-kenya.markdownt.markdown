@@ -35,7 +35,7 @@ The Kenyan "Money Clinic" guru **Amos Ngahu** and financial literacy advocate **
 Creators like **Tinashe Mwaniki** (storytelling & visuals) and **Ruth Mugo** (aspiring filmmaker) focus on high-fidelity, cinematic aesthetics that feel like art rather than ads.
 * **The Use Case:** A luxury skincare brand used **Employee-Generated Content (EGC)** combined with micro-influencer storytelling. They allowed creators like **Felicia Kimeu** to visit their laboratories and film "unpolished" raw takes.
 * **The Result:** This transparency drove a 35% revenue boost by addressing the primary barrier in Kenyan skincare: trust in ingredients.
-* 
+  
 ### 4. The Food Content Gold Mine
 Food creators represent untapped opportunity in Kenya. Steph The Chef (@stephthechef) with 14,400 followers creates Swiss-Spanish-American trained recipes adapted for Kenyan kitchens. When she partners with ingredient brands or kitchenware companies, her audience converts because they follow her for practical cooking advice.
 The food niche works because it combines education and entertainment. Musime's Tasty Kitchen built loyalty through consistent recipe content. When kitchen appliance brands or food delivery services partner with her, the promotion integrates naturally into existing content patterns.
