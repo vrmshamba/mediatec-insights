@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Great Digital Inversion: 2026 Strategic Advertising Report
+title: "The Great Digital Inversion: 2026 Strategic Advertising Report"
 date: 2026-01-05
 author: Insights by Mediatec
 image: 12.jpg
@@ -54,5 +54,45 @@ Verified cost per qualified lead for 2026.
 | Industry | Digital CPL KES | Dominant Channel |
 | --- | --- | --- |
 | Financial Services | 2,000 to 8,000 | Google Search or Meta |
-| Real Estate | 5,000 to 15,000 | Meta or
+| Real Estate | 5,000 to 15,000 | Meta or LinkedIn |
+| FMCG | 200 to 800 | TikTok or Instagram |
+| Education | 1,500 to 5,000 | Google Search |
 
+---
+
+## Critical Failure Points
+
+Competition for attention punishes inefficiency.
+
+- The five minute window  
+Contact delays beyond five minutes reduce conversion probability by 400 percent.
+
+- Mobile first reality  
+75 percent of traffic arrives on mobile. Desktop-first sites waste spend.
+
+- Dark social dominance  
+70 percent of commerce occurs in private messages.  
+Server-side tracking preserves attribution.
+
+---
+
+## Download the Full Intelligence Report
+
+
+<div style="background:#ffffff; padding:40px; border-radius:12px; border:3px solid #9B51E0; text-align:center; margin-top:30px; margin-bottom:30px; color:#000033; box-shadow:10px 10px 0px #0095EB;">
+
+<h3 style="margin-top:0; color:#000033;">Ready for the full 2026 dataset?</h3>
+
+<p style="color:#000033;">
+Access the 15-page Mediatec strategic advertising report.
+</p>
+
+<a href="/reports/mediatec-2026-full-report.pdf"
+style="background:#FFC52F; color:#000033; padding:18px 35px; text-decoration:none; border-radius:4px; font-weight:bold; display:inline-block; font-size:18px; border:2px solid #000033;">
+Download Full 2026 Report
+</a>
+
+</div>
+
+Produced by Mediatec Africa Insights  
+January 2026
