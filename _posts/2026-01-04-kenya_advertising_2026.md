@@ -10,6 +10,11 @@ excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Di
 # Kenya Advertising Shift
 ## 2026 Strategic Intelligence
 
+## Device Reality
+
+![Mobile Statistics]({{ "/images/15.jpg" | relative_url }})
+
+According to the Communications Authority of Kenya, 89.2 percent...
 **89.5 percent** of mobile phones in Kenya are smartphones.
 
 This single fact reshapes advertising allocation. Internet access is mobile-first. Desktop optimization wastes spend. Kenya is rapidly approaching the **Digital Inversion point**.
