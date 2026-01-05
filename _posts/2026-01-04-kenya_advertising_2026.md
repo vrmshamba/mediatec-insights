@@ -3,7 +3,7 @@ layout: post
 title: "Kenya Advertising Shift: 2026 Strategic Intelligence"
 date: 2026-01-05
 author: "Insights by Mediatec"
-image: /assets/images/12.jpg
+image: 12.jpg
 excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Digital Inversion point."
 ---
 
@@ -19,6 +19,8 @@ Kenya approaches the Digital Inversion point.
 Internet advertising grows at 16 percent annually, the fastest rate globally. Traditional broadcast remains relevant, but the gap narrows each quarter.
 
 Precision now outperforms scale.
+
+![]({{ site.baseurl }}/images/15.jpg).
 
 ## Market Reality
 
