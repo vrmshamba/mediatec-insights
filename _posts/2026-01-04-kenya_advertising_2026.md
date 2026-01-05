@@ -48,7 +48,7 @@ Speed, mobile execution, and relevance drive efficiency.
 
 ## Device & Platform Reality
 
-![Mobile Usage Statistics]({{ site.baseurl }}/images/15.jpg)
+![Market Statistics](/images/15.jpg)
 
 According to the Communications Authority of Kenya, **89.2 percent** of mobile phones in use are smartphones. 
 
