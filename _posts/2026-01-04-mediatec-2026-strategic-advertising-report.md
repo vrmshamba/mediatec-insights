@@ -3,7 +3,7 @@ layout: post
 title: "Kenya Advertising Shift: 2026 Strategic Report"
 date: 2026-01-05
 author: "Insights by Mediatec"
-image: /assets/images/12.jpg
+image: images/12.jpg
 excerpt: "Kenya approaches the digital inversion point as internet advertising grows at 16 percent annually."
 ---
 
