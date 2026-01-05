@@ -13,7 +13,7 @@ excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Di
 ## Device Reality
 
 According to the Communications Authority of Kenya, **89.2 percent** of mobile phones are smartphones. As smartphone penetration reaches record levels,feature phones maintain 40 percent of active hardware.
-SMS traffic declined to 14.66 billion messages this quarter. SMS is now a "notification" channel (OTP codes, balance alerts), while active "conversation" and "commerce" have moved to data platforms
+SMS traffic declined to 14.66 billion messages this quarter. SMS is now a "notification" channel (OTP codes, balance alerts), while active conversation and commerce have moved to data platforms
 
 Users shifted to WhatsApp and other data messaging platforms for social and commercial transactions.
 This single fact reshapes advertising allocation. Internet access is mobile first. 
