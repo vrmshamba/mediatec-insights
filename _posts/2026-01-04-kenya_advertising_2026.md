@@ -14,7 +14,8 @@ excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Di
 
 
 According to the Communications Authority of Kenya, 89.2 percent...
-**89.5 percent** of mobile phones in Kenya are smartphones.
+**85.2 percent** Smartphone penetration has hit a record of the population, even as feature phones maintain a 40% share of active hardware.
+SMS Decline: SMS traffic declined to 14.66 billion, messages this quarter as users shifted to WhatsApp and other data-based messaging for both social and commercial transactions.
 
 This single fact reshapes advertising allocation. Internet access is mobile-first. Desktop optimization wastes spend. Kenya is rapidly approaching the **Digital Inversion point**.
 
