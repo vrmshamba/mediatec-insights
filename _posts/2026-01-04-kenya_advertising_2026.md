@@ -3,7 +3,7 @@ layout: post
 title: "Kenya Advertising Shift: 2026 Strategic Intelligence"
 date: 2026-01-05
 author: "Insights by Mediatec"
-image: "/images/12.jpg"
+image: 12.jpg
 excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Digital Inversion point."
 ---
 
