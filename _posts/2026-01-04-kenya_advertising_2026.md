@@ -20,7 +20,7 @@ Internet advertising grows at 16 percent annually, the fastest rate globally. Tr
 
 Precision now outperforms scale.
 
-![]({{ site.baseurl }}/images/15.jpg).
+
 
 ## Market Reality
 
@@ -48,6 +48,7 @@ Digital cost per qualified lead varies by sector.
 Speed, mobile execution, and relevance drive efficiency.
 
 ## Device Reality
+![]({{ site.baseurl }}/images/15.jpg).
 
 According to the Communications Authority of Kenya, 89.2 percent of mobile phones in use are smartphones. Internet access is mobile first.
 
