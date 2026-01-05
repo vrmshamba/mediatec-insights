@@ -12,7 +12,6 @@ excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Di
 
 ## Device Reality
 
-![Mobile Statistics]({{ "/images/15.jpg" | relative_url }})
 
 According to the Communications Authority of Kenya, 89.2 percent...
 **89.5 percent** of mobile phones in Kenya are smartphones.
