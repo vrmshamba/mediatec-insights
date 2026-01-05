@@ -3,7 +3,7 @@ layout: post
 title: "Kenya Advertising Shift: 2026 Strategic Report"
 date: 2026-01-05
 author: "Insights by Mediatec"
-image: /assets/images/12.jpg
+image: 12.jpg
 excerpt: "Kenya stands at the inversion threshold. Digital advertising grows at 16 percent annually, the fastest rate globally."
 ---
 
@@ -15,6 +15,8 @@ Kenya stands at the Digital Inversion threshold.
 Internet advertising grows at 16 percent annually, the fastest rate globally. Traditional broadcast still commands a large share of spend, yet the gap narrows each quarter.
 
 The market rewards precision over scale.
+
+[Download Full 2026 Report]
 
 ## Current Market Position
 
@@ -45,6 +47,7 @@ Forecast equilibrium centers on near parity.
 Digital allocation accelerates demand capture at lower unit cost. Traditional media delivers scale where reach matters most.
 
 Allocation logic follows outcome, not habit.
+[Download Full 2026 Report]
 
 ## Industry Benchmarks  
 ### Cost per Qualified Lead Projections for 2026
@@ -77,6 +80,7 @@ According to the Communications Authority of Kenya, 89.2 percent of all mobile p
 Television ownership remains significant, yet daily attention concentrates on handheld screens. Desktop first experiences waste paid media spend.
 
 Contact speed determines outcome. Delays beyond five minutes reduce conversion probability by up to 400 percent.
+[Download Full 2026 Report]
 
 ## Platform Performance
 
