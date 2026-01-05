@@ -12,19 +12,18 @@ excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Di
 
 ## Device Reality
 
-
-According to the Communications Authority of Kenya, 89.2 percent...
-**85.2 percent** Smartphone penetration has hit a record of the population, even as feature phones maintain a 40% share of active hardware.
-SMS Decline: SMS traffic declined to 14.66 billion, messages this quarter as users shifted to WhatsApp and other data-based messaging for both social and commercial transactions.
-
-This single fact reshapes advertising allocation. Internet access is mobile-first. Desktop optimization wastes spend. Kenya is rapidly approaching the **Digital Inversion point**.
-
-Internet advertising grows at **16 percent annually**, the fastest rate globally. Traditional broadcast remains relevant, but the gap narrows each quarter. Precision now outperforms scale.
+According to the Communications Authority of Kenya, **89.2 percent** of mobile phones are smartphones. Smartphone penetration reaches record levels, even as feature phones maintain 40 percent of active hardware.
+SMS traffic declined to 14.66 billion messages this quarter. Users shifted to WhatsApp and other data messaging platforms for social and commercial transactions.
+This single fact reshapes advertising allocation. Internet access is mobile first. 
+Desktop optimization wastes spend.
+Kenya approaches the Digital Inversion point.
+Internet advertising grows at 16 percent annually, the fastest rate globally. 
+Traditional broadcast remains relevant, but the gap narrows each quarter.
+Precision now outperforms scale.
 
 ---
 
 ## Market Reality
-
 Advertising spend approaches parity. Digital is projected to reach **64 percent** of total spend by 2029. Digital drives conversion, while broadcast sustains reach and trust.
 
 > The 50:50 threshold defines 2026.
