@@ -4,7 +4,7 @@ title: "Kenya Advertising Shift: 2026 Strategic Intelligence"
 date: 2026-02-26
 author: "Insights by Mediatec"
 image: 12.jpg
-excerpt: "89.5 percent of mobile phones are smartphones. Kenya approaches the Digital Inversion point."
+excerpt: "89.2 percent of mobile phones are smartphones. Kenya approaches the Digital Inversion point."
 ---
 
 # Kenya Advertising Shift
@@ -66,6 +66,8 @@ Digital cost per qualified lead (CPL) varies significantly by sector:
 * Leveraging Broadcast trust to fuel Digital conversion.
 
 **[Get Your Copy of the Full Report: Mediatec Africa Insights Q1](https://selar.com/q17j12gy41)**
+
+<div class="ml-embedded" data-form="dwJp0R"></div>
 
 [Download Full 2026 Report](#)
 
