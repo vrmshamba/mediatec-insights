@@ -67,9 +67,9 @@ Digital cost per qualified lead (CPL) varies significantly by sector:
 
 **[Get Your Copy of the Full Report: Mediatec Africa Insights Q1](https://selar.com/q17j12gy41)**
 
-<div class="ml-embedded" data-form="dwJp0R"></div>
 
 [Download Full 2026 Report](#)
 
 ---
+<div class="ml-embedded" data-form="dwJp0R"></div>
 *Produced by Mediatec Africa Insights | January 2026*
